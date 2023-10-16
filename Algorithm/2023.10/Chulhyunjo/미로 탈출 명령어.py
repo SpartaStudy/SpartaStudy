@@ -13,8 +13,8 @@ def solution(n, m, x, y, r, c, k):
             # 이동에 필요한 칸
             needmove = abs(x - r) + abs(y - c)
             if needmove > k - cnt: continue
-            if abs(k - cnt) % 2 != needmove % 2: continue
 
+            # k만큼 움직였을 때
             if cnt == k:
                 if x == r and y == c:
                     return result
@@ -27,6 +27,7 @@ def solution(n, m, x, y, r, c, k):
                 heapq.heappush(pq, (result + COMMAND[i], nx, ny, cnt + 1))
 
         return 'impossible'
+
 
     needmove = abs(x - r) + abs(y - c)
     if (k - needmove) % 2 == 1 or needmove > k:
