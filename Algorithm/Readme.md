@@ -10,6 +10,6 @@
 
 | 주제          | 스터디 일자   | 알고리즘 분류 | 문제                                                                                                              |
 | ------------- | ------------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| 기출문제 풀이 | 23.10.16 (월) | 그래프 탐색         | [미로탈출 명령어(2023 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/150365) |
-| 테마 문제 | 23.10.17 (화) | 정렬         | [알고리즘 수업 - 퀵 정렬 3](https://www.acmicpc.net/problem/24092) [알고리즘 수업 - 선택 정렬 3](https://www.acmicpc.net/problem/23883) |
-
+| 기출문제 | 23.10.16 (월) | 그래프 탐색         | [미로탈출 명령어(2023 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/150365) |
+| 테마문제 | 23.10.17 (화) | 정렬         | [알고리즘 수업 - 퀵 정렬 3](https://www.acmicpc.net/problem/24092) [알고리즘 수업 - 선택 정렬 3](https://www.acmicpc.net/problem/23883) |
+| 기출문제 | 23.10.19 (목) | ...         | [셔틀버스(2018 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/17678) |
