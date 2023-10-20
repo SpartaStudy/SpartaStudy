@@ -13,16 +13,29 @@ public class Main {
         K = Integer.parseInt(st.nextToken());
 
         int[] arr = new int[N];
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
             arr[i] = Integer.parseInt(st.nextToken());
+            map.put(arr[i], i);
         }
 
         cnt = 0;
         ans_a = 0;
         ans_b = 0;
+        for (int i = N - 1; i >= 0; i--) {
+            int m = map.pollLastEntry().getValue();
+            if (i == m) {
+                continue;
+            }
 
-        selection_sort(arr);
+            cnt++;
+            boolean flag = swap(arr, map, i, m);
+
+            if (flag) {
+                break;
+            }
+        }
 
         if (ans_a == 0) {
             System.out.println(-1);
@@ -31,34 +44,19 @@ public class Main {
         }
     }
 
-    private static void selection_sort(int[] a) {
-        for (int i = 0; i < N - 1; i++) {
-            if (ans_a != 0) {
-                break;
-            }
-
-            int idx = i;
-            for (int j = i + 1; j < N; j++) {
-                if (a[idx] > a[j]) {
-                    idx = j;
-                }
-            }
-
-            if (i != idx) {
-                swap(a, i, idx);
-            }
-        }
-    }
-
-    private static void swap(int[] a, int i, int j) {
+    private static boolean swap(int[] a, TreeMap<Integer, Integer> map, int i, int j) {
         int tmp = a[i];
         a[i] = a[j];
         a[j] = tmp;
-        cnt++;
+        map.put(a[j], j);
+
         if (cnt == K) {
-            ans_a = a[i];
-            ans_b = a[j];
+            ans_a = a[j];
+            ans_b = a[i];
+            return true;
         }
+
+        return false;
     }
 
 }
