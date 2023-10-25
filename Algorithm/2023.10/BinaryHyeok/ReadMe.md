@@ -7,3 +7,8 @@
 ### [삽입 정렬](https://velog.io/@binary_hyeok/%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC)
 
 ### [퀵 정렬](https://velog.io/@binary_hyeok/%ED%80%B5-%EC%A0%95%EB%A0%AC)
+
+
+# 탐색
+
+### [이분 탐색](https://velog.io/@binary_hyeok/%EC%9D%B4%EB%B6%84-%ED%83%90%EC%83%89Binary-Search-Lower-Bound-Upper-Bound)
