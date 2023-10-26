@@ -15,3 +15,4 @@
 | 기출문제 | 23.10.19 (목) | 그리디, 구현  | [셔틀버스(2018 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/17678)                               |
 | 기출문제 | 23.10.23 (월) | 그래프 탐색   | [경주로 건설(2020 KAKAO INTERNSHIP)](https://school.programmers.co.kr/learn/courses/30/lessons/67259)                                   |
 | 테마문제 | 23.10.24 (화) | 이분 탐색   | [개똥벌레](https://www.acmicpc.net/problem/3020) , [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)                                |
+| 기출문제 | 23.10.26 (목) | ... | [다단계 칫솔 판매(2021 Dev-Matching)](https://school.programmers.co.kr/learn/courses/30/lessons/77486) |
