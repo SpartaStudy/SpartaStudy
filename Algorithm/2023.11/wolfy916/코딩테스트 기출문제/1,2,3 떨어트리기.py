@@ -4,7 +4,7 @@
 '''
 
 def solution(edges, target):
-    # [A] 이번 회차에 도착할 리프노드를 탐색하는 함수
+    # [A] 각 회차마다 도착할 리프노드를 탐색하는 함수
     def search(v):
         if len(adjL[v]) == 0: return v
         arrival = search(adjL[v][path[v]])
@@ -15,16 +15,19 @@ def solution(edges, target):
     def drop(selected, order):
         nonlocal answer
 
+        # 계산값 모두 일치
         if sum_lst[1:] == target:
             answer = selected
             return True
 
+        # 리프노드 메모이제이션
         if len(orders) > order:
             leaf = orders[order]
         else:
             leaf = search(1)
             orders.append(leaf)
 
+        # 백트랙킹 탐색
         for num in range(1, 4):
             if sum_lst[leaf] + num > target[leaf - 1]: continue
             sum_lst[leaf] += num
