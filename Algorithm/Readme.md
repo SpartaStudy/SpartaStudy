@@ -18,3 +18,4 @@
 | 기출문제 | 23.10.26 (목) | 자료구조(연결리스트, 해시) | [다단계 칫솔 판매(2021 Dev-Matching)](https://school.programmers.co.kr/learn/courses/30/lessons/77486)                                  |
 | 테마문제 | 23.10.30 (월) | 자료구조(연결리스트) | [회전하는 큐](https://www.acmicpc.net/problem/1021), [행운의 바퀴](https://www.acmicpc.net/problem/2840) |
 | 테마문제 | 23.10.31 (화) | 트리 |[트리 순회](https://www.acmicpc.net/problem/1991), [너구리 구구](https://www.acmicpc.net/problem/18126) |
+| 기출문제 | 23.11.02 (목) | 트리 | [1,2,3 떨어뜨리기](https://school.programmers.co.kr/learn/courses/30/lessons/150364) |
