@@ -1,6 +1,7 @@
 '''
 1,2,3 떨어트리기 - 프로그래머스 Lv.4(2023 KAKAO BLINT)
-분류 : 트리
+분류 : 그리디
+상태 : 시간초과
 '''
 
 def solution(edges, target):
