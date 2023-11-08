@@ -46,7 +46,6 @@ def solution(board):
             if (li, lj, nli, nlj) not in visited:
                 visited.add((li, lj, nli, nlj))
                 q.append((cnt + 1, li, lj, nli, nlj))
-    
     return answer
 
 board = [[0, 0, 0, 1, 1],[0, 0, 0, 1, 0],[0, 1, 0, 1, 1],[1, 1, 0, 0, 1],[0, 0, 0, 0, 0]]
