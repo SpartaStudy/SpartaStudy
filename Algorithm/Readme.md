@@ -21,4 +21,5 @@
 | 기출문제 | 23.11.02 (목) | 트리 | [1,2,3 떨어뜨리기](https://school.programmers.co.kr/learn/courses/30/lessons/150364) |
 | 기출문제 | 23.11.06 (월) | 그래프, 구현 | [블록 이동하기](https://school.programmers.co.kr/learn/courses/30/lessons/60063)
 | 테마문제 | 23.11.07 (화) | 위상정렬 | [장난감 조립](https://www.acmicpc.net/problem/2637)
-| 기출문제 | 23.11.09 (목) | ... | [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059)
+| 기출문제 | 23.11.09 (목) | 구현 | [자물쇠와 열쇠(2020 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/60059)
+| 기출문제 | 23.11.13 (월) | ... | [광고 삽입(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
