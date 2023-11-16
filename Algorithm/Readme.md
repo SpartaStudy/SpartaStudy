@@ -22,5 +22,6 @@
 | 기출문제 | 23.11.06 (월) | 그래프, 구현 | [블록 이동하기](https://school.programmers.co.kr/learn/courses/30/lessons/60063)
 | 테마문제 | 23.11.07 (화) | 위상정렬 | [장난감 조립](https://www.acmicpc.net/problem/2637)
 | 기출문제 | 23.11.09 (목) | 구현 | [자물쇠와 열쇠(2020 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/60059)
-| 기출문제 | 23.11.13 (월) | ... | [광고 삽입(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
+| 기출문제 | 23.11.13 (월) | 누적합, 슬라이딩 윈도우 | [광고 삽입(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
 | 테마문제 | 23.11.14 (화) | 스택, 큐 | [주차장](https://www.acmicpc.net/problem/5464), [PPAP](https://www.acmicpc.net/problem/16120)
+| 기출문제 | 23.11.15 (수) | ... | [카드 짝 맞추기(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
