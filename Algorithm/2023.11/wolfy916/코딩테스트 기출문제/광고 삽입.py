@@ -12,7 +12,7 @@ def solution(play_time, adv_time, logs):
     # [2] 동영상 시작시각과 종료시각 기록
     table = [0] * (total + 1)
     for log in logs:  # log = "HH:MM:SS-HH:MM:SS"
-        start, end = change(log[:8]), change(log[9:])
+        start, end = map(change, log.split('-'))
         table[start] += 1
         table[end] -= 1
     
