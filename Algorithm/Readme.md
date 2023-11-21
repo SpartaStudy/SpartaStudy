@@ -25,3 +25,5 @@
 | 기출문제 | 23.11.13 (월) | 누적합, 슬라이딩 윈도우 | [광고 삽입(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72414)
 | 테마문제 | 23.11.14 (화) | 스택, 큐 | [주차장](https://www.acmicpc.net/problem/5464), [PPAP](https://www.acmicpc.net/problem/16120)
 | 기출문제 | 23.11.15 (수) | ... | [카드 짝 맞추기(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
+| 기출문제 | 23.11.20 (월) | 트리, 그래프 탐색 | [양과 늑대(2022 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/92343) |
+| 테마문제 | 23.11.21 (화) | 비트마스킹 | [중복 제거](https://www.acmicpc.net/problem/13701) |
