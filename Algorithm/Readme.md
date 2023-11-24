@@ -27,3 +27,4 @@
 | 기출문제 | 23.11.15 (수) | ... | [카드 짝 맞추기(2021 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/72415)
 | 기출문제 | 23.11.20 (월) | 트리, 그래프 탐색 | [양과 늑대(2022 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/92343) |
 | 테마문제 | 23.11.21 (화) | 비트마스킹 | [중복 제거](https://www.acmicpc.net/problem/13701) |
+| 기출문제 | 23.11.24 (목) | 구현, UNION-FIND | [표 병합](https://school.programmers.co.kr/learn/courses/30/lessons/150366) |
