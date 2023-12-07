@@ -31,4 +31,6 @@
 | 기출문제 | 23.11.27 (월) | 백트래킹, DP | [코딩테스트 공부(2022 KAKAO TECH INTERNSHIP)](https://school.programmers.co.kr/learn/courses/30/lessons/118668) |
 | 테마문제 | 23.11.28 (화) | 다이나믹 프로그래밍 | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105), [등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898) |
 | 연습문제 | 23.11.30 (목) | 매개변수 이분탐색 | [선입선출 스케줄링](https://school.programmers.co.kr/learn/courses/30/lessons/12920) |
-| 기출문제 | 23.12.04 (월) | ... | [아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135) | 
+| 기출문제 | 23.12.04 (월) | 그리디, 구현 | [아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135) |
+| 도전문제 | 23.12.05 (화) | 그리디, 구현 | [공 이동 시뮬레이션](https://school.programmers.co.kr/learn/courses/30/lessons/87391) |
+| 기출문제 | 23.12.07 (월) | ... | [표현 가능한 이진트리(2023 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/150367) | 
