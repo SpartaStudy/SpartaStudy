@@ -1,95 +1,92 @@
-import java.util.*;
 /*
   bfs + prioirtyqueue
 */
-class Solution {
-    class Node implements Comparable<Node>{
-        int num;
-        int time;
 
-        public Node(int num, int time) {
+import java.util.*;
+
+class Solution {
+
+    class Node implements Comparable<Node> {
+        int num;
+        int weight;
+
+        public Node(int num, int weight) {
             this.num = num;
-            this.time = time;
+            this.weight = weight;
         }
 
         @Override
         public int compareTo(Node o) {
-            return this.time==o.time?this.num-o.num:this.time-o.time;
+            return this.weight - o.weight;
         }
     }
-    List<Node>[] graph;
-    int[] ans = new int[]{50001,10000001};
-    int min=10000001;
-    Set<Integer> summit = new HashSet<>();
-    public int[] solution(int n, int[][] paths, int[] gates, int[] summits) {
-        graph = new ArrayList[n+1];
-        for(int i=1;i<=n;i++){
-            graph[i]=new ArrayList<>();
-        }
-        for(int i=0;i<paths.length;i++){
-            int a=paths[i][0];
-            int b=paths[i][1];
-            int t=paths[i][2];
-            min=Math.min(min,t);
-            graph[a].add(new Node(b,t));
-            graph[b].add(new Node(a,t));
-        }
-        boolean[] visit=new boolean[n+1];
-        for(int i=0;i<gates.length;i++){
-            visit[gates[i]]=true; //입구들은 일단 다 방문처리
-        }
-        int minsum=50001; //가장 작은 summit
-        for(int i=0;i<summits.length;i++){
-            summit.add(summits[i]);
-            minsum=Math.min(minsum,summits[i]);
-        }
 
-        boolean[] visited;
-        for(int i=0;i<gates.length;i++){
-            if(ans[1]==min&&ans[0]==minsum) break; //최적의 값일 경우 그냥 종료 (없으면 시간초과..)
-            visited = visit.clone();
-            int gate=gates[i];
-            bfs(gate,visited);
+    int[] ans = new int[]{0, 10000001};
+    List<Node>[] graph;
+    PriorityQueue<Node> pq;
+    boolean[] summit;
+    boolean[] visit;
+    
+    public int[] solution(int n, int[][] paths, int[] gates, int[] summits) {        
+        graph = new ArrayList[n + 1];
+        for (int i = 1; i <= n; i++) {
+            graph[i] = new ArrayList<>();
         }
+        //connect
+        for (int i = 0; i < paths.length; i++) {
+            int a = paths[i][0];
+            int b = paths[i][1];
+            int t = paths[i][2];
+            graph[a].add(new Node(b, t));
+            graph[b].add(new Node(a, t));
+        }
+        //gate pq에 추가
+        pq = new PriorityQueue<>();
+        for (int i = 0; i < gates.length; i++) {
+            pq.add(new Node(gates[i], 0));
+        }
+        //summit 등록
+        summit = new boolean[n + 1];
+        for (int i = 0; i < summits.length; i++) {
+            summit[(summits[i])] = true;
+        }
+        
+        visit = new boolean[n + 1];
+        bfs();
 
         return ans;
     }
 
-    private void bfs(int gate, boolean[] visit) {
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-        pq.add(new Node(gate,0));
-        visit[gate]=false;
-        int max=0; //지금까지 가장 큰 intensity
-        while(!pq.isEmpty()){
+
+    private void bfs() {
+        
+        while (!pq.isEmpty()) {
             Node now = pq.poll();
             int num = now.num;
-            int time = now.time;
-            if(visit[num]) continue;
-            visit[num]=true;
-            
-            max=Math.max(max,time); //intensity 갱신
+            int weight = now.weight;
 
-            if(max>ans[1]){ //가지치기
+            if (visit[num]) continue;
+            visit[num] = true;
+            //프루닝
+            if (weight > ans[1]) {
                 return;
             }
-            if(summit.contains(num)){ //정상이라면?
-                if(max==ans[1]){ //정상 오름차순을 위해...
-                    ans[0]=Math.min(ans[0],num);
+            //정상일 경우
+            if (summit[num]) {
+                //오름차순 로직
+                if (weight == ans[1]) {
+                    ans[0] = Math.min(ans[0], num);
                     continue;
                 }
-                ans[0]=num;
-                ans[1]=max;
+                ans[0] = num;
+                ans[1] = weight;
                 continue;
             }
-
-            for(Node next : graph[num]){
-                if(visit[next.num]) continue;
-                pq.add(next);
+            //인접노드 확인후 추가
+            for (Node next : graph[num]) {
+                if (visit[next.num]) continue;
+                pq.add(new Node(next.num, Math.max(weight, next.weight)));
             }
-
         }
-
     }
-
-
 }
