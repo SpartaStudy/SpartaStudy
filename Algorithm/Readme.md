@@ -34,5 +34,7 @@
 | 기출문제 | 23.12.04 (월) | 그리디, 구현               | [아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135)                                                                         |
 | 도전문제 | 23.12.05 (화) | 그리디, 구현               | [공 이동 시뮬레이션](https://school.programmers.co.kr/learn/courses/30/lessons/87391)                                                                     |
 | 기출문제 | 23.12.07 (목) | 트리, 수학                 | [표현 가능한 이진트리(2023 KAKAO BLIND RECRUITMENT)](https://school.programmers.co.kr/learn/courses/30/lessons/150367)                                    |
-| 기출문제 | 23.12.11 (월) | ...                        | [등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)                                                                       |
+| 기출문제 | 23.12.11 (월) | 그래프 탐색, 완전탐색       | [등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)                                                                       |
 | 테마문제 | 23.12.12 (화) | 이분탐색                   | [징검다리](https://www.acmicpc.net/problem/11561), [보석상자](https://www.acmicpc.net/problem/2792)                                                       |
+| 도전문제 | 23.12.14 (목) | 그래프 탐색, SCC | [효율적인 해킹](https://www.acmicpc.net/problem/1325) |
+| 연습문제 | 23.12.18 (월) | ... | [아름다운 수열](https://www.codetree.ai/training-field/search/problems/beautiful-sequence?page=1&pageSize=20&tier=6%2C10), [Carry 피하기](https://www.codetree.ai/training-field/search/problems/escaping-carry?page=1&pageSize=20&tier=6%2C10) |
