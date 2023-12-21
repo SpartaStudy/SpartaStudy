@@ -39,3 +39,4 @@
 | 도전문제 | 23.12.14 (목) | 그래프 탐색, SCC | [효율적인 해킹](https://www.acmicpc.net/problem/1325) |
 | 연습문제 | 23.12.18 (월) | 정렬, 백트래킹 | [아름다운 수열](https://www.codetree.ai/training-field/search/problems/beautiful-sequence?page=1&pageSize=20&tier=6%2C10), [Carry 피하기](https://www.codetree.ai/training-field/search/problems/escaping-carry?page=1&pageSize=20&tier=6%2C10) |
 | 테마문제 | 23.12.19 (화) | 구현, 시뮬레이션 | [연속되는 수](https://www.codetree.ai/training-field/search/problems/continuous-number/description?page=1&pageSize=20&tags=Simulation), [빙산의 일각](https://www.codetree.ai/training-field/search/problems/the-tip-of-the-iceberg/description?page=1&pageSize=20&tags=Simulation) | 
+| 기출문제 | 23.12.21 (목) | ... | [외주 수익 최대화하기](https://www.codetree.ai/training-field/frequent-problems/problems/max-of-outsourcing-profit/description?page=1&pageSize=20&tier=1%2C11) |
