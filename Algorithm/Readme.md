@@ -46,4 +46,5 @@
 | 기출문제 | 24.01.08 (월) | 다이나믹 프로그래밍           | [산 모양 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/258705)                                                                                                                                                                                                  |
 | 연습문제 | 24.01.09 (화) | 백트래킹                      | [격자 밟기](https://www.codetree.ai/training-field/search/problems/stepping-on-grid/description?page=1&pageSize=20)                                                                                                                                                                 |
 | 연습문제 | 24.01.11 (목) | 문자열 | [T 제거하기](https://www.codetree.ai/training-field/search/problems/remove-t/description?page=2&pageSize=20) |
-| 기출문제 | 24.01.15 (월) | 조합론 | [주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709) |
+| 연습문제 | 24.01.15 (월) | 투포인터 | [괄호 쌍의 개수](https://www.codetree.ai/training-field/search/problems/number-of-parenthesis-pairs/description?page=1&pageSize=20) |
+| 기출문제 | 24.01.16 (화) | 조합론 | [주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709) |
