@@ -35,7 +35,7 @@ if __name__ == "__main__":
     # [2] 스위핑 리스트 생성
     swip_arr = gen_swip_arr(N)
 
-    # [3] x좌표 기준으로 스위핑 탐색
+    # [3] y좌표 기준으로 스위핑 탐색
     answer = 0
     y_arr = [0] * 20001
     for i in range(len(swip_arr) - 1):
