@@ -22,14 +22,14 @@ if __name__ == "__main__":
 
     # [3] 넓이 계산
     answer = 0
-    w, h = 0, 1
+    w = h = 0
     for day in range(1, 366):
         if calendar[day] > 0:
             w += 1
             h = max(h, calendar[day])
         else:
             answer += w * h
-            w, h = 0, 1
+            w = h = 0
 
     if w > 0:
         answer += w * h
